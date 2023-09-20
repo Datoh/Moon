@@ -1,0 +1,149 @@
+[gd_scene load_steps=6 format=3 uid="uid://dy1qydp06dobj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_krcl1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7yeyc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wbtkb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t8iwl"]
+
+[sub_resource type="Environment" id="Environment_k434w"]
+sdfgi_enabled = true
+sdfgi_bounce_feedback = 0.0
+glow_enabled = true
+
+[node name="Moon" type="Node3D"]
+
+[node name="Ground" type="CSGBox3D" parent="."]
+size = Vector3(100, 1, 50)
+material = SubResource("StandardMaterial3D_krcl1")
+
+[node name="Building" type="Node3D" parent="."]
+
+[node name="Building1" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+size = Vector3(1, 2, 1)
+material = SubResource("StandardMaterial3D_7yeyc")
+
+[node name="Building2" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.5, 6)
+size = Vector3(1, 1, 0.5)
+material = SubResource("StandardMaterial3D_wbtkb")
+
+[node name="Building3" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, -8)
+size = Vector3(0.3, 4, 0.3)
+material = SubResource("StandardMaterial3D_t8iwl")
+
+[node name="Building4" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0.5, 0)
+size = Vector3(1, 2, 1)
+material = SubResource("StandardMaterial3D_7yeyc")
+
+[node name="Building5" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0.5, 6)
+size = Vector3(1, 1, 0.5)
+material = SubResource("StandardMaterial3D_wbtkb")
+
+[node name="Building6" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0.5, -8)
+size = Vector3(0.3, 4, 0.3)
+material = SubResource("StandardMaterial3D_t8iwl")
+
+[node name="Building7" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29, 0.5, 8)
+size = Vector3(1, 2, 1)
+material = SubResource("StandardMaterial3D_7yeyc")
+
+[node name="Building8" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34, 0.5, 14)
+size = Vector3(1, 1, 0.5)
+material = SubResource("StandardMaterial3D_wbtkb")
+
+[node name="Building9" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32, 0.5, 0)
+size = Vector3(0.3, 4, 0.3)
+material = SubResource("StandardMaterial3D_t8iwl")
+
+[node name="Building10" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0.5, -10)
+size = Vector3(1, 2, 1)
+material = SubResource("StandardMaterial3D_7yeyc")
+
+[node name="Building11" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0.5, -4)
+size = Vector3(1, 1, 0.5)
+material = SubResource("StandardMaterial3D_wbtkb")
+
+[node name="Building12" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0.5, -18)
+size = Vector3(0.3, 4, 0.3)
+material = SubResource("StandardMaterial3D_t8iwl")
+
+[node name="Building13" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.5, 1)
+size = Vector3(1, 2, 1)
+material = SubResource("StandardMaterial3D_7yeyc")
+
+[node name="Building14" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0.5, 7)
+size = Vector3(1, 1, 0.5)
+material = SubResource("StandardMaterial3D_wbtkb")
+
+[node name="Building15" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0.5, -7)
+size = Vector3(0.3, 4, 0.3)
+material = SubResource("StandardMaterial3D_t8iwl")
+
+[node name="Building16" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.5, -10)
+size = Vector3(1, 2, 1)
+material = SubResource("StandardMaterial3D_7yeyc")
+
+[node name="Building17" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, -4)
+size = Vector3(1, 1, 0.5)
+material = SubResource("StandardMaterial3D_wbtkb")
+
+[node name="Building18" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0.5, -18)
+size = Vector3(0.3, 4, 0.3)
+material = SubResource("StandardMaterial3D_t8iwl")
+
+[node name="Building19" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0.5, 3)
+size = Vector3(1, 2, 1)
+material = SubResource("StandardMaterial3D_7yeyc")
+
+[node name="Building20" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0.5, 9)
+size = Vector3(1, 1, 0.5)
+material = SubResource("StandardMaterial3D_wbtkb")
+
+[node name="Building21" type="CSGBox3D" parent="Building"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0.5, -5)
+size = Vector3(0.3, 4, 0.3)
+material = SubResource("StandardMaterial3D_t8iwl")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(-0.303102, -0.0530463, 0.951481, 1.97146e-08, 0.99845, 0.0556649, -0.952958, 0.0168722, -0.302632, 22.2613, 23.7009, -10.3455)
+omni_range = 52.8069
+
+[node name="Camera3d" type="Camera3D" parent="."]
+transform = Transform3D(-0.266449, -0.522576, 0.809888, -0.144484, 0.852426, 0.502488, -0.952958, 0.0168722, -0.302632, 42.5995, 5.26543, -10.3455)
+
+[node name="DirectionalLight3d1" type="SpotLight3D" parent="."]
+transform = Transform3D(-0.268355, -0.705063, 0.656408, -0.140913, 0.702803, 0.697289, -0.952958, 0.0946242, -0.287953, 68.7247, 27.4749, -16.046)
+light_energy = 100.0
+light_indirect_energy = 100.0
+shadow_enabled = true
+distance_fade_begin = 2408.3
+distance_fade_length = 2688.9
+spot_range = 100.0
+spot_angle = 9.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_k434w")
+
+[node name="LightmapProbe" type="LightmapProbe" parent="."]
